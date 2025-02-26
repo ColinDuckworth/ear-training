@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#container {
+  background-color: #fff;
+  padding: 20px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#settings label,
+#settings select,
+#settings input {
+  margin: 5px;
+}
+
+#buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+#notation-container,
+#user-notation-container {
+  margin-top: 20px;
+  height: 150px;
+}
+
+#userNoteButtons {
+  margin-top: 10px;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#score {
+  margin-top: 10px;
+}
+
+.note-button {
+  margin: 5px;
+  padding: 8px 15px;
+  font-size: 1em;
+  background-color: #ff7f50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.note-button:hover {
+  background-color: #ff6347;
+}
